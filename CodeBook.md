@@ -1,3 +1,5 @@
+I first completed this assignment in september. I'm retaking this course as part of the complete Data Science specialisation.
+
 ##This file describes the steps taken to create the data set for the project.
 
 ## About the data:
