@@ -1,5 +1,3 @@
-I first completed this assignment in september. I'm retaking this course as part of the complete Data Science specialisation.
-
 ##This file describes the steps taken to create the data set for the project.
 
 ## About the data:
@@ -36,3 +34,5 @@ The program itself gives a good description of the steps taken in more detail. I
 - The training and test sets are merged
 - The averages of the variables are calculated for each subject and each activity. There are 30 subjects and 6 activities so 180 rows.
 - The data is saved to a file
+
+(I first completed this assignment in s)eptember. I'm retaking this course as part of the complete Data Science specialisation.)
