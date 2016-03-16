@@ -8,3 +8,5 @@ This repository contains 4 files:
 - a codebook, containing an explanation of the work
 - an R file with the script to make the required output csv file
 - the output: tidy_data_means.csv
+
+(I first completed this assignment in september. I'm retaking this course as part of the complete Data Science specialisation.)
