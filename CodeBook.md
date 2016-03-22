@@ -1,6 +1,8 @@
 ##Codebook
 
-This file describes the contents of the file tidy_data_means.csv. Please read the ReadMe file to understand how this file is generated and for information about the original data.
+Please read the ReadMe file to understand how this file is generated and for information about the original data.
+
+This file describes the contents of the file tidy_data_means.csv. 
 
 Each row contains information about a certain subject performing a certain activity.
 
