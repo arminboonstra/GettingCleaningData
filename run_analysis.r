@@ -5,7 +5,6 @@
 #  4. Appropriately labels the data set with descriptive variable names. 
 #  
 #  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-#  I first completed this assignment in september. I'm retaking this course as part of the complete Data Science specialisation.
 
 library (dplyr)
 library (plyr)
@@ -62,5 +61,6 @@ tidy_set <- merged_set[,grep("mean|std|Subject|Activity", names(merged_set), val
 melted <- melt(tidy_set, id=c("Subject", "Activity_name"))
 tidy_data_means <- dcast(melted, Subject + Activity_name ~ variable, mean)
 
-# Write data set to file
-write.csv(tidy_set, "tidy_data_means.csv")
+# From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+# Write data set to file 
+write.table(tidy_data_means, "tidy_data_means.csv", row.name = FALSE)
