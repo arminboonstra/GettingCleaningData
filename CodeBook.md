@@ -1,38 +1,93 @@
-##This file describes the steps taken to create the data set for the project.
+##Codebook
 
-## About the data:
-The raw data represents data collected from the accelerometers from the Samsung Galaxy S smartphone.
-There are 30 volunteers who perform 6 different activities.
+This file describes the contents of the file tidy_data_means.csv
 
-The raw data is available here:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Each row contains information about a certain subject performing a certain activity.
 
-About the files:
-- activity_labels.txt    : the names of the 6 different activities
-- features.txt           : the feature names
-- features_info.txt      : information about the output variables
-- README.txt             : general information 
+# Cases
+Subject: The id number of the subject
+Activity name: The name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+Activity code: The number of the activity (1-6, corresponding with the above)
 
-- subject_test.txt       : the subject ID's for the data
-- X_test.txt             : the raw data for the volunteers in the test group
-- y_test.txt             : the activity ID's for the data
+# Measurements
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+tBodyAccMag-mean()
+tBodyAccMag-std()
+tGravityAccMag-mean()
+tGravityAccMag-std()
+tBodyAccJerkMag-mean()
+tBodyAccJerkMag-std()
+tBodyGyroMag-mean()
+tBodyGyroMag-std()
+tBodyGyroJerkMag-mean()
+tBodyGyroJerkMag-std()
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+fBodyAcc-meanFreq()-X
+fBodyAcc-meanFreq()-Y
+fBodyAcc-meanFreq()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+fBodyAccJerk-meanFreq()-X
+fBodyAccJerk-meanFreq()-Y
+fBodyAccJerk-meanFreq()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+fBodyGyro-meanFreq()-X
+fBodyGyro-meanFreq()-Y
+fBodyGyro-meanFreq()-Z
+fBodyAccMag-mean()
+fBodyAccMag-std()
+fBodyAccMag-meanFreq()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-std()
+fBodyBodyAccJerkMag-meanFreq()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-std()
+fBodyBodyGyroMag-meanFreq()
+fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-std()
+fBodyBodyGyroJerkMag-meanFreq()
 
-- subject_train.txt       : the subject ID's for the data
-- X_train.txt             : the raw data for the volunteers in the train group
-- y_train.txt             : the activity ID's for the data
 
-The inertial Signals files were not used.
-
-## Steps to achieve output:
-
-1. downloaded the data from the above site and unzip it into the R working directory
-2. run the program "run_analysis.R"  
-
-The program itself gives a good description of the steps taken in more detail. In general the following is done:
-
-- Activity and variable names are added to the raw data
-- The training and test sets are merged
-- The averages of the variables are calculated for each subject and each activity. There are 30 subjects and 6 activities so 180 rows.
-- The data is saved to a file
-
-(I first completed this assignment in september. I'm retaking this course as part of the complete Data Science specialisation.)
