@@ -5,9 +5,13 @@ This file describes the contents of the file tidy_data_means.csv
 Each row contains information about a certain subject performing a certain activity.
 
 # Cases
+
 Subject: The id number of the subject
+
 Activity name: The name of the activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 Activity code: The number of the activity (1-6, corresponding with the above)
+
 
 # Measurements
 tBodyAcc-mean()-X
