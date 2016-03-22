@@ -1,6 +1,3 @@
-# getting_and_cleaning_data
-coursera course
-
 ## About
 The purpose of this repository is to fulfil the Course Project for the Coursera Course "Getting and Cleaning Data".
 
