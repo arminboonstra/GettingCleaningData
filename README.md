@@ -44,8 +44,8 @@ For each record it is provided:
 
 ## Steps to achieve output:
 
-1. downloaded the data from the above site and unzip it into the R working directory
-2. run the program "run_analysis.R"  
+1. Downloaded the data from the above site and unzip it into the R working directory
+2. Run the program "run_analysis.R"  
 
 The program itself gives a good description of the steps taken in more detail. In general the following is done:
 
